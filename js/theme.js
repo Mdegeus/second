@@ -5,13 +5,17 @@ function setTheme(themeName) {
 }
 
 document.querySelector('.btn-dark-th').addEventListener('click', function(){
-    setTheme('theme-dark')
+    setTheme('theme-dark');
 });
 
 document.querySelector('.btn-light-th').addEventListener('click', function(){
-    setTheme('theme-light')
+    setTheme('theme-light');
 });
 
 document.querySelector('.btn-blue-th').addEventListener('click', function(){
-    setTheme('theme-blue')
+    setTheme('theme-blue');
+});
+
+document.querySelector('.btn-remove-theme').addEventListener('click', function(){
+    localStorage.setItem('theme', null);
 });

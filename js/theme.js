@@ -17,5 +17,5 @@ document.querySelector('.btn-blue-th').addEventListener('click', function(){
 });
 
 document.querySelector('.btn-remove-theme').addEventListener('click', function(){
-    localStorage.setItem('theme', null);
+    localStorage.setItem('theme', 'null');
 });

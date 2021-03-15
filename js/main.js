@@ -11,9 +11,8 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
 
-  if (localStorage.getItem('theme') == null){
+  if (localStorage.getItem('theme') === null || localStorage.getItem('theme') === 'null'){
     localStorage.setItem('theme', 'theme-dark');
     }
 
 document.documentElement.className = localStorage.getItem('theme');
-console.log(localStorage.getItem('theme'));

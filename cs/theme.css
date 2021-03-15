@@ -1,0 +1,15 @@
+.theme-light{
+    --color-nav: #ffffff;
+    --color-nav-text: #2b2b2b;
+    --hover-color-nav-text: #424242;
+}
+
+.theme-dark{
+    --color-nav: #2b2b2b;
+    --color-nav-text: #ffffff;
+    --hover-color-nav-text: #424242;
+}
+
+.theme-blue{
+    --color-nav: #2484ae;
+}

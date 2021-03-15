@@ -16,3 +16,4 @@ function openNav() {
     }
 
 document.documentElement.className = localStorage.getItem('theme');
+console.log(localStorage.getItem('theme'));

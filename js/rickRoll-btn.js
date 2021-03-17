@@ -1,5 +1,7 @@
 const audio = new Audio('audio/RickRoll.mp3');
 
+alert('allow this site to play audio.');
+
 document.querySelector('.btn-rick-roll').addEventListener('mouseover', function(){
     audio.play();
 })
